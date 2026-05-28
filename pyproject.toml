@@ -15,7 +15,11 @@ dependencies = [
     "taskipy (>=1.14.1,<2.0.0) ; python_version >= \"3.12\" and python_version < \"4.0\"",
     "isort (>=8.0.1,<9.0.0)",
     "black (>=26.5.1,<27.0.0)",
-    "pytest (>=9.0.3,<10.0.0)"
+    "pytest (>=9.0.3,<10.0.0)",
+    "pandas (>=3.0.3,<4.0.0) ; python_version >= \"3.12\" and python_version < \"4.0\"",
+    "pandera (>=0.31.1,<0.32.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "sqlalchemy (>=2.0.50,<3.0.0)"
 ]
 
 
@@ -24,13 +28,7 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
-format = """
-isort .
-black .
-"""
-kill = "kill -9 $(lsof -t -i :8000)"
-test = "pytest -v"
-run = """
-python3 app/main.py
-"""
+format = "isort . && black ."
+test = "pytest -o pythonpath=. tests -v"
+run = "python app/main.py"
 doc = "mkdocs serve"
