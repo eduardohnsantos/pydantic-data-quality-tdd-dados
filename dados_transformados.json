@@ -1,0 +1,112 @@
+[
+    {
+        "id_produto":1,
+        "nome":"Produto A",
+        "quantidade":100,
+        "preco":10.0,
+        "categoria":"eletronicos",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":1000.0,
+        "categoria_normalizada":"eletronicos",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":2,
+        "nome":"Produto B",
+        "quantidade":150,
+        "preco":20.0,
+        "categoria":"mobilia",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":3000.0,
+        "categoria_normalizada":"mobilia",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":3,
+        "nome":"Produto C",
+        "quantidade":200,
+        "preco":15.0,
+        "categoria":"informatica",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":3000.0,
+        "categoria_normalizada":"informatica",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":4,
+        "nome":"Produto D",
+        "quantidade":50,
+        "preco":5.0,
+        "categoria":"decoracao",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":250.0,
+        "categoria_normalizada":"decoracao",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":5,
+        "nome":"Produto E",
+        "quantidade":120,
+        "preco":22.0,
+        "categoria":"eletronicos",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":2640.0,
+        "categoria_normalizada":"eletronicos",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":6,
+        "nome":"Produto F",
+        "quantidade":80,
+        "preco":45.0,
+        "categoria":"mobilia",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":3600.0,
+        "categoria_normalizada":"mobilia",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":7,
+        "nome":"Produto G",
+        "quantidade":60,
+        "preco":120.0,
+        "categoria":"informatica",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":7200.0,
+        "categoria_normalizada":"informatica",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":8,
+        "nome":"Produto H",
+        "quantidade":30,
+        "preco":85.0,
+        "categoria":"decoracao",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":2550.0,
+        "categoria_normalizada":"decoracao",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":9,
+        "nome":"Produto I",
+        "quantidade":90,
+        "preco":55.0,
+        "categoria":"eletronicos",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":4950.0,
+        "categoria_normalizada":"eletronicos",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":10,
+        "nome":"Produto J",
+        "quantidade":20,
+        "preco":100.0,
+        "categoria":"mobilia",
+        "email":"produtoA@example.com",
+        "valor_total_estoque":2000.0,
+        "categoria_normalizada":"mobilia",
+        "disponibilidade":true
+    }
+]
